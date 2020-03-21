@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-echo /app/detect.sh --blackduck.url=${INPUT_URL} \
+/app/detect.sh --blackduck.url=${INPUT_URL} \
   --blackduck.api.token=${INPUT_TOKEN} \
   --blackduck.trust.cert=true \
   --detect.policy.check=true \
