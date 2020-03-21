@@ -1,0 +1,27 @@
+name: "Black Duck Scanner"
+description: "Black Duck Scanner Action"
+author: "Niek Palm <niek.palm@philips.com>"
+branding:
+  color: green
+  icon: shield
+
+inputs:
+  projectName:
+    description: Blackduck project name
+    required: true
+
+  versionPrefix:
+    description: Blackduck project version prefix
+    required: true
+
+  url:
+    description: Blackduck url
+    required: true
+
+  totokenekn:
+    description: Blackduck token
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
