@@ -18,9 +18,13 @@ inputs:
     description: Blackduck url
     required: true
 
-  totokenekn:
+  token:
     description: Blackduck token
     required: true
+
+  extraArgs:
+    description: Extra arguments that will be passed to the detector
+    required: false
 
 runs:
   using: docker

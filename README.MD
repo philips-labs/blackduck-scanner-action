@@ -4,12 +4,14 @@ A Github action for running Black Duck analysis on your codebase inside a Docker
 
 ## Required parameters
 
-| Parameter     | Description                    |
-| ------------- | :----------------------------- |
-| projectName   | Your project name in BlackDuck |
-| versionPrefix | Version prefix                 |
-| token         | Black Duck token token         |
-| url           | Black Duck server url          |
+| Parameter     | Description                                         |
+| ------------- | :-------------------------------------------------- |
+| projectName   | Your project name in BlackDuck                      |
+| versionPrefix | Version prefix                                      |
+| token         | Black Duck token token                              |
+| url           | Black Duck server url                               |
+| extraArgs     | Extra arguments that will be passed to the detector |
+
 
 ## Sample Configuration
 
@@ -28,4 +30,6 @@ blackduck:
         projectName: Your project name
         versionPrefix: You version prefix
         url: https://your.black.duck.swamp/
+        extraArgs: --detect.yarn.prod.only=true
+
 ```
