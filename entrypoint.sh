@@ -5,4 +5,5 @@
   --blackduck.trust.cert=true \
   --detect.policy.check=true \
   --detect.project.name=${INPUT_PROJECTNAME} \
-  --detect.project.version.name=${INPUT_VERSIONPREFIX}
+  --detect.project.version.name=${INPUT_VERSIONPREFIX} \
+  ${INPUT_EXTRAARGS}
