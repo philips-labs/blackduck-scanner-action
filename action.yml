@@ -22,6 +22,10 @@ inputs:
     description: Blackduck token
     required: true
 
+  sourcePath:
+    description: sourcePath
+    required: true
+
   extraArgs:
     description: Extra arguments that will be passed to the detector
     required: false

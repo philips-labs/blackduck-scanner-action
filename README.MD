@@ -10,6 +10,7 @@ A Github action for running Black Duck analysis on your codebase inside a Docker
 | versionPrefix | Version prefix                                      |
 | token         | Black Duck token token                              |
 | url           | Black Duck server url                               |
+| sourePath     | source path                                         |
 | extraArgs     | Extra arguments that will be passed to the detector |
 
 
@@ -30,6 +31,7 @@ blackduck:
         projectName: Your project name
         versionPrefix: You version prefix
         url: https://your.black.duck.swamp/
+        sourcePath: /code
         extraArgs: --detect.yarn.prod.only=true
 
 ```
