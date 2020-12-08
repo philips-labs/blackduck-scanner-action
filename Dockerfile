@@ -1,4 +1,4 @@
-FROM philipssoftware/blackduck:6.5-node
+FROM philipssoftware/blackduck:6.7-node
 
 COPY entrypoint.sh /entrypoint.sh
 
