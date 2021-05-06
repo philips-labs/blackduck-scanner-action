@@ -6,4 +6,5 @@
   --detect.policy.check=true \
   --detect.project.name=${INPUT_PROJECTNAME} \
   --detect.source.path=${INPUT_SOURCEPATH:-/github/home} \
-  --detect.project.version.name=${INPUT_VERSIONPREFIX}
+  --detect.project.version.name=${INPUT_VERSIONPREFIX} \
+  ${INPUT_EXTRAARGS}
