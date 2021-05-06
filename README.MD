@@ -1,4 +1,4 @@
-# Black Dock Scanner action
+# Black Duck Scanner action
 
 A Github action for running Black Duck analysis on your codebase inside a Docker container.
 
