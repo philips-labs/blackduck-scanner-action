@@ -5,6 +5,6 @@
   --blackduck.trust.cert=true \
   --detect.policy.check=true \
   --detect.project.name=${INPUT_PROJECTNAME} \
-  --detect.source.path=${INPUT_SOURCEPATH:.} \
+  --detect.source.path=${INPUT_SOURCEPATH:-.} \
   --detect.project.version.name=${INPUT_VERSIONPREFIX} \
   ${INPUT_EXTRAARGS}
