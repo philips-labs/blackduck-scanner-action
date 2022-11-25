@@ -1,5 +1,7 @@
 # Black Duck Scanner action
 
+> Warning. This action is no longer maintained. [Synopsys released their own action. Please use theirs](https://github.com/synopsys-sig/detect-action)!
+
 A Github action for running Black Duck analysis on your codebase inside a Docker container.
 
 ## Required parameters
